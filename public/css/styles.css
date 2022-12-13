@@ -116,3 +116,12 @@ p {
     margin-bottom: 15px;
 }
 
+img {
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+

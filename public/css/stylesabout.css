@@ -125,4 +125,10 @@ p {
 img {
     width: 40%;
     margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
