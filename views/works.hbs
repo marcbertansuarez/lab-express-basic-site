@@ -19,7 +19,10 @@
     </header>
     <main>
       <div class="section1">
-        <article>
+        {{#each works}}
+          {{>section1 this}}
+        {{/each}}
+        {{!-- <article>
           <img src="img/The_Strokes_-_Is_This_It_cover.png" alt="Is-this-it" />
           <h3>Is this it?</h3>
           <p>2001</p>
@@ -33,7 +36,7 @@
           <img class="imgFIOE"src="img/FIOEstrokes.jpeg" alt="FIOE" />
           <h3>First Impressions of Earth</h3>
           <p>2005</p>
-        </article>
+        </article> --}}
       </div>
       <div class="section2">
         <article>
